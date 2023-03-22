@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page #2 of my Portfolio</title>
+    <style>
+        #BigBox {
+            background-image: linear-gradient(yellow, orange, orange, red, red, black);
+            flex-direction: column;
+            display: flex;
+            margin: auto;
+            width: 750px;
+            padding: 20px;
+            box-shadow: 10px 10px 5px 0px black;
+            height: 800px;
+        }
+
+        #TitleBox {
+            border-radius: 25px;
+            background-color: green;
+            text-align: center;
+        }
+
+        #AboutBox {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        #TopicBox {
+            background-color: fuchsia;
+            text-align: center;
+            width: 500px;
+            border-radius: 25px;
+            padding-bottom: 10px;
+            border-bottom-width: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        #ParagraphBox {
+            background-color: lightblue;
+            width: 500px;
+        }
+
+        #PicBox {
+            
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            padding-bottom: 200px;
+        }
+
+        .Pic {
+            height: 100px;
+            width: 100px;
+        }
+
+        #Box {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .DescriptionBox {
+            background-color: yellow;
+            border-style: solid;
+            height: 100px;
+            margin: 5px;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="BigBox">
+        <div id="TitleBox">
+            <H1>My Portfolio</H1>
+        </div>
+        <marquee>Made by Liam Hiller</marquee>
+        <div id="AboutBox">
+            <div id="TopicBox">
+                <H2>RPG Maker MV:Cat Boss</H2>
+            </div>
+            <div id="ParagraphBox">
+                I made a boss with my cat in it, his name is Bailey and my family got him when we lived in England. I got the
+                idea when you showed us that you can put pictures in RPG Maker MV and I have a lot of funny pictures of
+                my cat so I made a boss with him. I was going to make another boss with my dog Toby if we made a new
+                dungeon pass.
+            </div>
+        </div>
+        <div id="PicBox">
+            <div class="Pic">
+                <img src="Cat_Boss_Pic_Smaller.PNG">
+            </div>
+            <div class="Pic">
+                <img src="Cat_Boss_Fight_Smaller.PNG">
+            </div>
+            <div class="Pic">
+                <img src="Cat_Boss_Dead2_Small_2.PNG">
+            </div>
+        </div>
+        <div id="Box">
+            <div class="DescriptionBox">
+
+                Before you fight the boss.
+                <p>(Bailey was sleeping on the couch)</p>
+            </div>
+            <div class="DescriptionBox">
+
+                During the fight with boss.
+                <p>(Bailey was wanting to go outside and he meowed when I took the picture)</p>
+            </div>
+            <div class="DescriptionBox">
+
+                After you defeat the boss.
+                <p>(I got that picture when Bailey was by the fire)</p>
+            </div>
+        </div>
+        <div class="pagination">
+
+            <a href="index.html">1</a>
+            <a href="portfolio2.html" class="active">2</a>
+            <a href="portfolio3.html">3</a>
+            <a href="portfolio4.html">4</a>
+            <a href="portfolio5.html">5</a>
+
+        </div>
+</body>
+
+</html>

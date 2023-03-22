@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page #3 of my Portfolio</title>
+    <style>
+        #BigBox {
+            background-image: radial-gradient(circle, yellow, yellow, red, blue, blue);
+            flex-direction: column;
+            display: flex;
+            margin: auto;
+            width: 750px;
+            padding: 20px;
+            box-shadow: 10px 10px 5px 0px black;
+            height: 650px;
+        }
+
+        #TitleBox {
+            border-radius: 25px;
+            background-image: linear-gradient(to right, green, yellow, red, purple);
+            text-align: center;
+        }
+
+        #AboutBox{
+            display:flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        #TopicBox {
+            background-color: fuchsia;
+            text-align: center;
+            width: 500px;
+            border-radius: 25px;
+            padding-bottom: 10px;
+            border-bottom-width: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        #ParagraphBox {
+            background-color: red;
+            width: 500px;
+        }
+
+        #PicBox {
+            display:flex;
+            justify-content: space-around;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .Pic {
+            background-color: olive;
+            border-style: solid;
+            height: 100px;
+            width: 100px;
+        }
+
+        #Box {
+            display:flex;
+            justify-content: space-between;
+        }
+
+
+        .DescriptionBox {
+            background-color: yellow;
+            border-style: solid;
+            height: 100px;
+            margin: 5px;
+        }
+
+        .pagination {
+            display:flex;
+            justify-content: space-around;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="BigBox">
+        <div id="TitleBox">
+            <H1>My Portfolio</H1>
+        </div>
+        <marquee>Made by Liam Hiller</marquee>
+        <div id="AboutBox">
+             <div id="TopicBox">
+                <H2>RPG Maker MV:
+                    Reputation system</H2>
+            </div>
+            <div id="ParagraphBox">
+                
+            </div>
+        </div>
+        <div id="PicBox">
+            <div class="Pic">
+                <img src="#">
+            </div>
+            <div class="Pic">
+                <img src="#">
+            </div>
+            <div class="Pic">
+                <img src="#">
+            </div>
+        </div>
+        <div id="Box">
+            <div class="DescriptionBox">
+
+                If you have bad reputation.
+            </div>
+            <div class="DescriptionBox">
+
+                Code for reputation system.
+            </div>
+            <div class="DescriptionBox">
+
+                If you have good reputation.
+            </div>
+        </div>
+        <div class="pagination">
+
+            <a href="index.html">1</a>
+            <a href="portfolio2.html" class="active">2</a>
+            <a href="portfolio3.html">3</a>
+            <a href="portfolio4.html">4</a>
+            <a href="portfolio5.html">5</a>
+        </div>
+</body>
+
+</html>
